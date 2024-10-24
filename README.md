@@ -34,7 +34,7 @@ Suggest using Camel Case standard.
       <li>- (Subtraction)</li>
       <li>* (Multiplication)</li>
       <li>/ (Division)</li>
-      <li>% (Modulus)</li>
+      <li>% (Modulus) ``` 7  % 3 = 1 ```</li>
     </ul>
   </li>
 
