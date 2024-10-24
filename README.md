@@ -161,6 +161,7 @@ Suggest using Camel Case standard.
   <li>Convert Class: Provides safe conversions between types, especially for strings.</li>
   <li>as and is Operators: Useful for checking types and safe casting.</li>
 </ul>
+
 ## Implicit Casting
 Implicit casting occurs when the conversion is guaranteed to be safe and does not result in data loss. This usually happens when converting from a smaller data type to a larger data type.
 ```
