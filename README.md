@@ -6,9 +6,9 @@
   Console.WriteLine("Hello World!");
 ```
 # Variables
-Camel Case: camelCase
-Pascal Case: PascalCase
-Snake Case: snake_case
+Camel Case: camelCase<br>
+Pascal Case: PascalCase<br>
+Snake Case: snake_case<br>
 
 Suggest using Camel Case standard.
 ```
