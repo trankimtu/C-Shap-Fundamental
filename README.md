@@ -6,6 +6,11 @@
   Console.WriteLine("Hello World!");
 ```
 # Variables
+Camel Case: camelCase
+Pascal Case: PascalCase
+Snake Case: snake_case
+
+Suggest using Camel Case standard.
 ```
   int minInt = -2147483648; // a 4-byte area is allocated in Ram to store the value. The address of this specific area is set to minInt
   int maxInt =  2147483648;
