@@ -19,5 +19,5 @@ Suggest using Camel Case standard.
   char c = 'a';
   decimal dec = 3.14m;
   float f = 3.14f; 
-  double d = 3.14;
+  double d = 3.14 + 5.12;
 ```
