@@ -36,10 +36,9 @@ Suggest using Camel Case standard.
       <li>/ (Division)</li>
       <li>% (Modulus) 
         
-``` 
-  7  % 3 = 1 
-```
-
+        ``` 
+          7  % 3 = 1 
+        ```
       </li>
     </ul>
   </li>
