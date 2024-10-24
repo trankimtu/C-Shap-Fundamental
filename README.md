@@ -154,3 +154,5 @@ Suggest using Camel Case standard.
   </li>
 </ol>
 
+# Type casting
+
