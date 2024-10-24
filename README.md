@@ -66,7 +66,7 @@ Suggest using Camel Case standard.
       <li>| (Bitwise OR)</li>
       <li>^ (Bitwise XOR)</li>
       <li>~ (Bitwise NOT)</li>
-      <li>&lt;<&lt;< (Left shift)</li>
+      <li><< (Left shift)</li>
       <li>>> (Right shift)</li>
     </ul>
   </li>
