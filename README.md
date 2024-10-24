@@ -202,4 +202,40 @@ if (obj is string)
 
 ```
 
+## Using TryParse
+<ul>
+  <li>int.TryParse</li>
+  <li>double.TryParse</li>
+  <li>float.TryParse</li>
+  <li>decimal.TryParse</li>
+  <li>long.TryParse</li>
+  <li>short.TryParse</li>
+  <li>DateTime.TryParse</li>
+  <li>bool.TryParse</li>
+</ul>
 
+```
+bool int.TryParse(string s, out int result);
+```
+
+### Parameters
+s: The string to convert.
+result: An out parameter that will hold the converted integer value if the conversion is successful; otherwise, it will be zero.
+### Return Value
+Returns true if the conversion was successful; otherwise, it returns false.
+### Example
+Here’s an example demonstrating how to use int.TryParse:
+```
+string input = "123";
+int number;
+
+if (int.TryParse(input, out number))
+{
+    Console.WriteLine($"Conversion successful: {number}");
+}
+else
+{
+    Console.WriteLine("Conversion failed.");
+}
+
+```
