@@ -35,22 +35,141 @@ Suggest using Camel Case standard.
       <li>* (Multiplication)</li>
       <li>/ (Division)</li>
       <li>% (Modulus)</li>
-      
     </ul>
   </li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+
+  <li>
+    Relational Operators
+    <ul>
+      <li>== (Equal to)</li>
+      <li>!= (Not equal to)</li>
+      <li>> (Greater than)</li>
+      <li>< (Less than)</li>
+      <li>>= (Greater than or equal to)</li>
+      <li><= (Less than or equal to)</li>
+    </ul>
+  </li>
+
+  <li>
+    Logical Operators
+    <ul>
+      <li><&& (Logical AND)/li>
+      <li>|| (Logical OR)</li>
+      <li>! (Logical NOT)</li>
+    </ul>
+  </li>
+        
+  <li>
+    Bitwise Operators
+    <ul>
+      <li>& (Bitwise AND)</li>
+      <li>| (Bitwise OR)</li>
+      <li>^ (Bitwise XOR)</li>
+      <li>~ (Bitwise NOT)</li>
+      <li>&lt;<&lt;< (Left shift)</li>
+      <li>>> (Right shift)</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
 </ol>
 1. 
 
@@ -58,24 +177,9 @@ Suggest using Camel Case standard.
 
 
 
-2. Relational Operators
-== (Equal to)
-!= (Not equal to)
-> (Greater than)
-< (Less than)
->= (Greater than or equal to)
-<= (Less than or equal to)
-3. Logical Operators
-&& (Logical AND)
-|| (Logical OR)
-! (Logical NOT)
-4. Bitwise Operators
-& (Bitwise AND)
-| (Bitwise OR)
-^ (Bitwise XOR)
-~ (Bitwise NOT)
-<< (Left shift)
->> (Right shift)
+
+
+
 5. Assignment Operators
 = (Simple assignment)
 += (Add and assign)
