@@ -22,10 +22,6 @@ Suggest using Camel Case standard.
   double d = 3.14 + 5.12;
 ```
 # Operator
-
-```
-  + - * / %
-```
 <ol>
   <li>
     Arithmetic Operators
@@ -54,7 +50,7 @@ Suggest using Camel Case standard.
   <li>
     Logical Operators
     <ul>
-      <li><&& (Logical AND)/li>
+      <li>&& (Logical AND)</li>
       <li>|| (Logical OR)</li>
       <li>! (Logical NOT)</li>
     </ul>
