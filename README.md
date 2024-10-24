@@ -70,148 +70,90 @@ Suggest using Camel Case standard.
       <li>>> (Right shift)</li>
     </ul>
   </li>
+        
   <li>
+    Assignment Operators
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>= (Simple assignment)</li>
+      <li>+= (Add and assign)</li>
+      <li>-= (Subtract and assign)</li>
+      <li>*= (Multiply and assign)</li>
+      <li>/= (Divide and assign)</li>
+      <li>%= (Modulus and assign)</li>
+      <li>&= (Bitwise AND and assign)</li>
+      <li>|= (Bitwise OR and assign)</li>
+      <li>^= (Bitwise XOR and assign)</li>
+      <li><<= (Left shift and assign)</li>
+      <li>>>= (Right shift and assign)</li>
     </ul>
   </li>
+        
   <li>
+    Unary Operators
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>+ (Unary plus)</li>
+      <li>- (Unary minus)</li>
+      <li>++ (Increment)</li>
+      <li>-- (Decrement)</li>
     </ul>
   </li>
+  
   <li>
+    Conditional Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>?: (Ternary conditional)</li>
     </ul>
   </li>
+  
   <li>
+    Null-Coalescing Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>?? (Null-coalescing)</li>
     </ul>
   </li>
+  
   <li>
+    Type Comparison Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>is (Checks if an object is of a specific type)</li>
+      <li>as (Attempts to cast an object to a specific type, returning null if it fails)</li>
     </ul>
   </li>
+  
   <li>
+    Member Access Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>. (Dot operator to access members of a type)</li>
     </ul>
   </li>
+  
   <li>
+    Indexing Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>[] (Used to access elements in arrays or collections)</li>
     </ul>
   </li>
+  
   <li>
+    Invocation Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>() (Used to call methods)</li>
     </ul>
   </li>
+  
   <li>
+    Event Subscription Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>+= (Subscribes to events)</li>
+      <li>-= (Unsubscribes from events)</li>
     </ul>
   </li>
+  
   <li>
+    Lambda Operator
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>=> (Lambda expression)</li>
     </ul>
   </li>
 </ol>
-1. 
 
-
-
-
-
-
-
-
-5. Assignment Operators
-= (Simple assignment)
-+= (Add and assign)
--= (Subtract and assign)
-*= (Multiply and assign)
-/= (Divide and assign)
-%= (Modulus and assign)
-&= (Bitwise AND and assign)
-|= (Bitwise OR and assign)
-^= (Bitwise XOR and assign)
-<<= (Left shift and assign)
->>= (Right shift and assign)
-6. Unary Operators
-+ (Unary plus)
-- (Unary minus)
-++ (Increment)
--- (Decrement)
-7. Conditional Operator
-?: (Ternary conditional)
-8. Null-Coalescing Operator
-?? (Null-coalescing)
-9. Type Comparison Operator
-is (Checks if an object is of a specific type)
-as (Attempts to cast an object to a specific type, returning null if it fails)
-10. Member Access Operator
-. (Dot operator to access members of a type)
-11. Indexing Operator
-[] (Used to access elements in arrays or collections)
-12. Invocation Operator
-() (Used to call methods)
-13. Event Subscription Operator
-+= (Subscribes to events)
--= (Unsubscribes from events)
-14. Lambda Operator
-=> (Lambda expression)
