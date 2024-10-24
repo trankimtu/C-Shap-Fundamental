@@ -155,14 +155,14 @@ Suggest using Camel Case standard.
 </ol>
 
 # Type casting
-### Implicit Casting
+## Implicit Casting
 Implicit casting occurs when the conversion is guaranteed to be safe and does not result in data loss. This usually happens when converting from a smaller data type to a larger data type.
 ```
 int intValue = 123;
 long longValue = intValue; // Implicit casting from int to long
 double doubleValue = longValue; // Implicit casting from long to double
 ```
-### Exprlicit Casting
+## Exprlicit Casting
 Explicit casting is required when converting from a larger data type to a smaller data type or when converting between incompatible types. This can result in data loss or runtime exceptions if not handled properly.
 ```
 double doubleValue = 123.45;
