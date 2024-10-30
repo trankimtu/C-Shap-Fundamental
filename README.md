@@ -239,3 +239,20 @@ else
 }
 
 ```
+
+# Stack and Heap
+
+<ul>
+  <li>Stack is for value type</li>
+  <li>Heap is for reference types</li>
+  <li>C# does not have a dedicated memory location specifically for global variable. It uses static fields to achieve similar functionality. This static field is on heap</li>
+</ul>
+
+## Stack
+All variable below is store in stack
+```
+  int a = 1;
+  double b = 2;
+  ...
+```
+
