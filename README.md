@@ -24,14 +24,14 @@ dotnet run
 ```
 # Top-level statements
 
-namespace -> classes -> members -> method -> statements
+namespace -> classes -> members -> method -> statements<br>
 .NET 6.0 use C# 10 by default. With C# 10, you don’t necessarily need to include using System; or define a class and Main method for very simple programs, thanks to top-level statements. You can write a minimal program like this:
 ```
   Console.WriteLine("Hello, World!");
 ```
-This works because C# 10 allows you to omit the traditional structure, making it easier to write quick scripts or small applications.
+This works because C# 10 allows you to omit the traditional structure, making it easier to write quick scripts or small applications.<br>
 
-However, if you're working on a larger project or prefer the traditional structure for readability and organization, you can still use the full syntax:
+However, if you're working on a larger project or prefer the traditional structure for readability and organization, you can still use the full syntax:<br>
 Traditional C#
 ```
 using System;
@@ -55,14 +55,14 @@ Both approaches are valid, so you can choose based on your preference and the co
 
 ## Static method
 Call the method directly
-WriteLine() is a Static method in class Console. We can call the WriteLine() method directly without create an instance for it.
+WriteLine() is a Static method in class Console. We can call the WriteLine() method directly without create an instance for it.<br>
 Cannot create instance of a static class
 ```
 Console.WriteLine();
 ```
 
-## Public, Private ... method
-Must create instance of the class
+## Instance method (Public, Private ...)
+Must create instance of the class<br>
 Then invoke or call the method under the instance
 ```
 class ConsoleApp
@@ -75,7 +75,7 @@ class ConsoleApp
         
     }
 
-    public void MyName () {
+    void MyName () {
         string myName = "Tu";
         Console.WriteLine(myName);
     }
