@@ -56,7 +56,7 @@ Both approaches are valid, so you can choose based on your preference and the co
 ## Static method
 Call the method directly
 WriteLine() is a Static method in class Console. We can call the WriteLine() method directly without create an instance for it.
-
+Cannot create instance of a static class
 ```
 Console.WriteLine();
 ```
