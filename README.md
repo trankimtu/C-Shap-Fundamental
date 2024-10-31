@@ -5,6 +5,23 @@
   Console.Write("Hello\nWorld");
   Console.WriteLine("Hello World!");
 ```
+# Open CLI
+```
+Ctrl + `
+```
+# Run program
+```
+dotnet run
+```
+
+# Comment
+```
+  // 1 line comment
+  /*
+    Block comment
+    ...
+  */ 
+```
 # Variables
 Camel Case: camelCase<br>
 Pascal Case: PascalCase<br>
