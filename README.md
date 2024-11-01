@@ -426,3 +426,40 @@ Expression - Evaluates to a value<br>
   }
 
 ```
+
+## Declaration a variable
+```
+  int x;
+```
+Declare a variable and use it without initialization will cause run time error<br>
+To void it, use nullable type<br>
+Nullable Type: int? is a shorthand for Nullable<int>. This allows the variable x to hold either an integer value or null.
+```
+  int? x = null; // Nullable<int> x = null;
+```
+
+## Initialization
+```
+  x = 5
+```
+# Data type
+using System;
+```
+  class ConsoleApp
+  {
+      static void Main(string[] args)
+      {
+          int a = -5;
+          uint b = 5;
+          char c = 'C';
+          float d = 5.5f;
+          float e = 5.5F;
+          double f = 5.5;
+          decimal g = 5.5m; // for more accurate value such as money ...
+          decimal h = 5.5M;
+          bool i = false;
+          bool j = true;
+          string k = "Hello World!";
+      }
+  }
+```
