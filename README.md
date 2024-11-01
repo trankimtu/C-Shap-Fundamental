@@ -603,13 +603,13 @@ Build-in Reference Type
 </table>
 
 ## Simple Type Property
+
 <table>
     <tr>
         <th>Data Type</th>
         <th>Size</th>
         <th>Range</th>
         <th>Example</th>
-        <th>Nullable</th>
         <th>Default Value</th>
     </tr>
     <tr>
@@ -617,7 +617,6 @@ Build-in Reference Type
         <td>1 byte</td>
         <td>true or false</td>
         <td>bool isActive = true;</td>
-        <td>Yes</td>
         <td>false</td>
     </tr>
     <tr>
@@ -625,7 +624,6 @@ Build-in Reference Type
         <td>1 byte</td>
         <td>0 to 255</td>
         <td>byte b = 255;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -633,7 +631,6 @@ Build-in Reference Type
         <td>1 byte</td>
         <td>-128 to 127</td>
         <td>sbyte sb = -128;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -641,7 +638,6 @@ Build-in Reference Type
         <td>2 bytes</td>
         <td>-32,768 to 32,767</td>
         <td>short s = 30000;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -649,7 +645,6 @@ Build-in Reference Type
         <td>2 bytes</td>
         <td>0 to 65,535</td>
         <td>ushort us = 65535;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -657,7 +652,6 @@ Build-in Reference Type
         <td>4 bytes</td>
         <td>-2,147,483,648 to 2,147,483,647</td>
         <td>int i = 100;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -665,7 +659,6 @@ Build-in Reference Type
         <td>4 bytes</td>
         <td>0 to 4,294,967,295</td>
         <td>uint ui = 4000000000;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -673,7 +666,6 @@ Build-in Reference Type
         <td>8 bytes</td>
         <td>-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</td>
         <td>long l = 10000000000;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -681,7 +673,6 @@ Build-in Reference Type
         <td>8 bytes</td>
         <td>0 to 18,446,744,073,709,551,615</td>
         <td>ulong ul = 18446744073709551615;</td>
-        <td>Yes</td>
         <td>0</td>
     </tr>
     <tr>
@@ -689,7 +680,6 @@ Build-in Reference Type
         <td>4 bytes</td>
         <td>±1.5 x 10<sup>−45</sup> to ±3.4 x 10<sup>38</sup></td>
         <td>float f = 3.14f;</td>
-        <td>Yes</td>
         <td>0.0f</td>
     </tr>
     <tr>
@@ -697,7 +687,6 @@ Build-in Reference Type
         <td>8 bytes</td>
         <td>±5.0 x 10<sup>−324</sup> to ±1.7 x 10<sup>308</sup></td>
         <td>double d = 3.14;</td>
-        <td>Yes</td>
         <td>0.0</td>
     </tr>
     <tr>
@@ -705,7 +694,6 @@ Build-in Reference Type
         <td>16 bytes</td>
         <td>±1.0 x 10<sup>−28</sup> to ±7.9 x 10<sup>28</sup> (28-29 significant digits)</td>
         <td>decimal dec = 19.99m;</td>
-        <td>Yes</td>
         <td>0.0</td>
     </tr>
     <tr>
@@ -713,7 +701,6 @@ Build-in Reference Type
         <td>2 bytes</td>
         <td>U+0000 to U+FFFF (Unicode)</td>
         <td>char c = 'A';</td>
-        <td>Yes</td>
         <td>'\0'</td>
     </tr>
 </table>
