@@ -417,7 +417,7 @@ Expression - Evaluates to a value<br>
       {
           Console.Write("Input Your name: ");
           string name = Console.ReadLine();
-          Console.WriteLine("Hello " + name + "!"); //use variable name in expression "Hello " + name + "!" in which Hello, name, ! is operand and + is operator that use to concatinate 3 strings.
+          Console.WriteLine("Hello " + name + "!"); //use variable name in expression "Hello " + name + "!" in which Hello, name, ! are operands and + is operator that use to concatinate 3 strings.
       }
   }
 
