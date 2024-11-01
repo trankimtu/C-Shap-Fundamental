@@ -501,93 +501,78 @@ Value Type:
         <th>C# Type</th>
         <th>.NET Type</th>
     </tr>
-
     <tr>
-        <td>11</td>
+        <th>1</th>
         <td>bool</td>
         <td>System.Boolean</td>
     </tr>
-
     <tr>
-        <td>2</td>
+        <th>2</th>
         <td>byte</td>
         <td>System.Byte</td>
     </tr>
-
     <tr>
-        <td>3</td>
+        <th>3</th>
         <td>sbyte</td>
         <td>System.SByte</td>
     </tr>
-
     <tr>
-        <td>4</td>
+        <th>4</th>
         <td>char</td>
         <td>System.Char</td>
     </tr>
-
     <tr>
-        <td>5</td>
+        <th>5</th>
         <td>decimal</td>
         <td>System.Decimal</td>
     </tr>
-
     <tr>
-        <td>6</td>
+        <th>6</th>
         <td>double</td>
         <td>System.Double</td>
     </tr>
-
     <tr>
-        <td>7</td>
+        <th>7</th>
         <td>float</td>
         <td>System.Single</td>
     </tr>
-
     <tr>
-        <td>8</td>
+        <th>8</th>
         <td>int</td>
         <td>System.Int32</td>
     </tr>
-
     <tr>
-        <td>9</td>
+        <th>9</th>
         <td>uint</td>
         <td>System.UInt32</td>
     </tr>
-
     <tr>
-        <td>10</td>
+        <th>10</th>
         <td>nint</td>
         <td>System.IntPtr</td>
     </tr>
-
     <tr>
-        <td>11</td>
+        <th>11</th>
         <td>nuint</td>
         <td>System.UIntPtr</td>
     </tr>
-
     <tr>
-        <td>12</td>
+        <th>12</th>
         <td>long</td>
         <td>System.Int64</td>
     </tr>
-
     <tr>
-        <td>13</td>
+        <th>13</th>
         <td>ulong</td>
         <td>System.UInt64</td>
     </tr>
-
     <tr>
-        <td>14</td>
+        <th>14</th>
         <td>short</td>
         <td>System.Int16</td>
     </tr>
-
     <tr>
-        <td>15</td>
+        <th>15</th>
         <td>ushort</td>
         <td>System.UInt16</td>
     </tr>
