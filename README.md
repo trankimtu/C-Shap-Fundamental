@@ -493,7 +493,7 @@ using System;
   }
 ```
 ## Build in type
-Value Type:
+Build-in Value Type:
 
 <table>
     <tr>
@@ -575,5 +575,29 @@ Value Type:
         <th>15</th>
         <td>ushort</td>
         <td>System.UInt16</td>
+    </tr>
+</table>
+
+Build-in Reference Type
+<table>
+    <tr>
+        <th></th>
+        <th>C# type</th>
+        <th>.NET type</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td>object</td>
+        <td>System.Object</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>string</td>
+        <td>System.String</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>dynamic</td>
+        <td>System.Object</td>
     </tr>
 </table>
