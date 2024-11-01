@@ -376,3 +376,49 @@ Output 2
 ```
   dotnet run This is my String -> Output: This is my String
 ```
+
+# User input
+```
+  using System;
+
+  class ConsoleApp
+  {
+      static void Main(string[] args)
+      {
+          Console.Write("Input Your name: ");
+          string name = Console.ReadLine();
+          Console.WriteLine("Hello " + name + "!");
+          Console.WriteLine($"Hello {name}!"); // String interpolation
+
+      }
+  }
+
+```
+Output:
+```
+  Input Your name: Tu Tran
+  Hello Tu Tran!
+  Hello Tu Tran!
+```
+
+# Variable
+Cannot start with number:
+```
+  string 5x = "abc"; // Error
+```
+Variable can use in: <br>
+Expression - Evaluates to a value<br>
+```
+  using System;
+
+  class ConsoleApp
+  {
+      static void Main(string[] args)
+      {
+          Console.Write("Input Your name: ");
+          string name = Console.ReadLine();
+          Console.WriteLine("Hello " + name + "!"); //use variable name in expression "Hello " + name + "!" in which Hello, name, ! is operand and + is operator that use to concatinate 3 strings.
+      }
+  }
+
+```
