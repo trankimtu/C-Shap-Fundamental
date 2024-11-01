@@ -320,7 +320,7 @@ else
 
 ```
 
-# Stack and Heap
+# Stack and Heap - Value type vs reference type
 
 <ul>
   <li>Stack is for value type</li>
