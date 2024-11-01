@@ -333,9 +333,38 @@ All variable below is store in stack
 ```
   int a = 1;
   double b = 2;
+  int c = a; // copy value 1 from address of a, allocate another address for c and paste the value 1 in. a and c use 2 different address
+  a = 3;  // value 3 is store in address of a, value of c is still 1
+
+  
   ...
 ```
+## Heap
+Variable declare by new keyword
+```
+  int[] myArray = new int[10]; // Allocated on the heap
+```
+Default array
+```
+  using System;
 
+  class ConsoleApp
+  {
+      static void Main(string[] args)
+      {
+          int[] d = { -4 }; // create array d
+          int[] e = d;      // reference array e = array d. This will create array e and point to the same data address of array d
+
+          Console.WriteLine($"d[0] = {d[0]}"); //d[0] = -4
+          Console.WriteLine($"e[0] = {e[0]}"); //e[0] = -4
+  
+          d[0] = -5; // Change data value in the data address
+
+          Console.WriteLine($"d[0] = {d[0]}"); //d[0] = -5 
+          Console.WriteLine($"e[0] = {e[0]}"); //e[0] = -5
+      }
+  }
+```
 # Passing args in Main method
 Code 1
 ```
@@ -463,3 +492,86 @@ using System;
       }
   }
 ```
+## Build in type
+Value Type:
+<table>
+  <tr>
+    <th>C# Type</th>
+    <th>.NET Type</th>
+  </tr>
+  
+  <tr>
+    <td>bool</td>
+    <td>System.Boolean</td>
+  </tr>
+ 
+  <tr>
+    <td>byte</td>
+    <td>System.Byte</td>
+  </tr>
+  	
+  <tr>
+    <td>sbyte</td>
+    <td>System.SByte</td>
+  </tr>
+  	
+  <tr>
+    <td>char</td>
+    <td>System.Char</td>
+  </tr>
+  	
+  <tr>
+    <td>decimal</td>
+    <td>System.Decimal</td>
+  </tr>
+  	
+  <tr>
+    <td>double</td>	
+    <td>System.Double</td>
+  </tr>
+
+  <tr>
+    <td>float</td>	
+    <td>System.Single</td>
+  </tr>
+
+  <tr>
+    <td>int</td>	
+    <td>System.Int32</td>
+  </tr>
+
+  <tr>
+    <td>uint</td>	
+    <td>System.UInt32</td>
+  </tr>
+
+  <tr>
+    <td>nint</td>	
+    <td>System.IntPtr</td>
+  </tr>
+
+  <tr>
+    <td>nuint</td>	
+    <td>System.UIntPtr</td>
+  </tr>
+
+  <tr>
+    <td>long</td>	
+    <td>System.Int64</td>
+  </tr>
+
+  <tr>
+    <td>ulong</td>	
+    <td>System.UInt64</td>
+  </tr>
+
+  <tr>
+    <td>short</td>	
+    <td>System.Int16</td>
+  </tr>
+
+  <tr>
+    <td>ushort</td>	
+    <td>System.UInt16</td>
+  </tr>
+</table>
