@@ -494,84 +494,101 @@ using System;
 ```
 ## Build in type
 Value Type:
+
 <table>
-  <tr>
-    <th>C# Type</th>
-    <th>.NET Type</th>
-  </tr>
-  
-  <tr>
-    <td>bool</td>
-    <td>System.Boolean</td>
-  </tr>
- 
-  <tr>
-    <td>byte</td>
-    <td>System.Byte</td>
-  </tr>
-  	
-  <tr>
-    <td>sbyte</td>
-    <td>System.SByte</td>
-  </tr>
-  	
-  <tr>
-    <td>char</td>
-    <td>System.Char</td>
-  </tr>
-  	
-  <tr>
-    <td>decimal</td>
-    <td>System.Decimal</td>
-  </tr>
-  	
-  <tr>
-    <td>double</td>	
-    <td>System.Double</td>
-  </tr>
+    <tr>
+        <th></th>
+        <th>C# Type</th>
+        <th>.NET Type</th>
+    </tr>
 
-  <tr>
-    <td>float</td>	
-    <td>System.Single</td>
-  </tr>
+    <tr>
+        <td>11</td>
+        <td>bool</td>
+        <td>System.Boolean</td>
+    </tr>
 
-  <tr>
-    <td>int</td>	
-    <td>System.Int32</td>
-  </tr>
+    <tr>
+        <td>2</td>
+        <td>byte</td>
+        <td>System.Byte</td>
+    </tr>
 
-  <tr>
-    <td>uint</td>	
-    <td>System.UInt32</td>
-  </tr>
+    <tr>
+        <td>3</td>
+        <td>sbyte</td>
+        <td>System.SByte</td>
+    </tr>
 
-  <tr>
-    <td>nint</td>	
-    <td>System.IntPtr</td>
-  </tr>
+    <tr>
+        <td>4</td>
+        <td>char</td>
+        <td>System.Char</td>
+    </tr>
 
-  <tr>
-    <td>nuint</td>	
-    <td>System.UIntPtr</td>
-  </tr>
+    <tr>
+        <td>5</td>
+        <td>decimal</td>
+        <td>System.Decimal</td>
+    </tr>
 
-  <tr>
-    <td>long</td>	
-    <td>System.Int64</td>
-  </tr>
+    <tr>
+        <td>6</td>
+        <td>double</td>
+        <td>System.Double</td>
+    </tr>
 
-  <tr>
-    <td>ulong</td>	
-    <td>System.UInt64</td>
-  </tr>
+    <tr>
+        <td>7</td>
+        <td>float</td>
+        <td>System.Single</td>
+    </tr>
 
-  <tr>
-    <td>short</td>	
-    <td>System.Int16</td>
-  </tr>
+    <tr>
+        <td>8</td>
+        <td>int</td>
+        <td>System.Int32</td>
+    </tr>
 
-  <tr>
-    <td>ushort</td>	
-    <td>System.UInt16</td>
-  </tr>
+    <tr>
+        <td>9</td>
+        <td>uint</td>
+        <td>System.UInt32</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>nint</td>
+        <td>System.IntPtr</td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td>nuint</td>
+        <td>System.UIntPtr</td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>long</td>
+        <td>System.Int64</td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td>ulong</td>
+        <td>System.UInt64</td>
+    </tr>
+
+    <tr>
+        <td>14</td>
+        <td>short</td>
+        <td>System.Int16</td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>ushort</td>
+        <td>System.UInt16</td>
+    </tr>
 </table>
