@@ -71,3 +71,16 @@ During compilation, the compiler adds an entry for the variable x in the <strong
     <td>0x001</td>
   </tr>
 </table>
+Value Assignment<br>
+The value 5 is stored in the memory location allocated for x.<br>
+Stack Memory
+<table>
+  <tr>
+    <th>Address</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>0x001</td>
+    <td>5</td>
+  </tr>
+</table>
