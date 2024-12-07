@@ -63,8 +63,8 @@ bool int.TryParse(string s, out int result);
 ```
 
 ### Parameters
-s: The string to convert.
-result: An out parameter that will hold the converted integer value if the conversion is successful; otherwise, it will be zero.
+s: The string to convert.<br>
+result: An out parameter that will hold the converted integer value if the conversion is successful; otherwise, it will be zero.<br>
 ### Return Value
 Returns true if the conversion was successful; otherwise, it returns false.
 ### Example
