@@ -35,9 +35,10 @@ class ConsoleApp
         Console.WriteLine("ToCharArray");
         string myString = "This is my string";
         char[] charArray = myString.ToCharArray();
-        for (int i = 0; i < charArray.Length; i++)
+        Array.Reverse(charArray);
+        foreach (var item in charArray)
         {
-            Console.WriteLine(charArray[i]);
+            Console.Write(item);
         }
     }
 }
