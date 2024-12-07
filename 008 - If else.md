@@ -11,23 +11,28 @@ class ConsoleApp
         Console.WriteLine("B. 1");
         Console.WriteLine("C. 2");
         Console.Write("Input your choice A, B, or C: ");
+
+        string message = "";
         string choice = Console.ReadLine();
+
         if (choice == "A")
         {
-            Console.WriteLine($"Your {choice} is correct in Binary");
+            message = $"Your {choice} is correct in Binary";
         }
         else if (choice == "B")
         {
-            Console.WriteLine($"Your {choice} is wrong");
+            message = $"Your {choice} is wrong";
         }
         else if (choice == "C")
         {
-            Console.WriteLine($"Your {choice} is correct in Decimal");
+            message = $"Your {choice} is correct in Decimal";
         }
         else
         {
-            Console.WriteLine($"Your {choice} is not an option");
+            message = $"Your {choice} is not an option ";
+            message += $"Please input A, B, or C";
         }
+        Console.WriteLine(message);
     }
 }
 ```
