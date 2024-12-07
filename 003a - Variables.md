@@ -73,7 +73,7 @@ During compilation, the compiler adds an entry for the variable x in the <strong
 </table>
 Value Assignment<br>
 The value 5 is stored in the memory location allocated for x.<br>
-Stack Memory
+<strong>Stack Memory</strong>
 <table>
   <tr>
     <th>Address</th>
