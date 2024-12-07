@@ -70,3 +70,17 @@ class ConsoleApp
     }
 }
 ```
+# Switch ... case
+switch (day) {
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    // Other cases...
+    default:
+        Console.WriteLine("Unknown day");
+        break;
+}
+
