@@ -9,7 +9,8 @@ class ConsoleApp
         Console.WriteLine("For loop");
         for (int i = 0; i < 10; i++)
         {
-            if (i == 4) {
+            if (i == 4)
+            {
                 Console.WriteLine($"i = {i} continue");
                 continue;
             }
