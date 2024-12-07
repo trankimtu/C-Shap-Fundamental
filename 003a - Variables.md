@@ -14,7 +14,7 @@ Suggest using Camel Case standard.
   float f = 3.14f; 
   double d = 3.14 + 5.12;
 ```
-Variables cannot have same name
+Variables cannot have the same name
 ```
   string firstName = "Tu";
   string firstName = "Tuan";
