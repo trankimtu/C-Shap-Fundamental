@@ -65,7 +65,7 @@ class ConsoleApp
 
         string message2 = (choice == "A") 
             ? $"Your {choice} is correct in Binary" 
-            : string.Format("Your {0} is not an option. Please input A", choice);
+            : string.Format("Your {0} is not an option. Please input A", choice); // use index
         Console.WriteLine($"message2 = {message2}");
     }
 }
