@@ -19,6 +19,7 @@ Variables cannot start with number:
 ```
   string 5x = "abc"; // Error
 ```
+
 Variable can use in: <br>
 Expression - Evaluates to a value<br>
 ```
@@ -55,3 +56,18 @@ Nullable Type: int? is a shorthand for Nullable<int>. This allows the variable x
 ```
   x = 5
 ```
+During compilation, the compiler adds an entry for the variable x in the <strong>symbol table</strong>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Scope</th>
+    <th>Address</th>
+  </tr>
+  <tr>
+    <td>x</td>
+    <td>int</td>
+    <td>local (method)</td>
+    <td>0x001</td>
+  </tr>
+</table>
