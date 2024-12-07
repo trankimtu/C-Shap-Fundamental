@@ -1,4 +1,4 @@
-# If else
+# If ... else if ... else ...
 ```
 using System;
 
@@ -33,6 +33,40 @@ class ConsoleApp
             message += $"Please input A, B, or C";
         }
         Console.WriteLine(message);
+    }
+}
+```
+# If ... else ...
+```
+using System;
+
+class ConsoleApp
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("1 + 1 = ?");
+        Console.WriteLine("A. 10");
+
+        Console.Write("Input your choice A: ");
+
+        string message = "";
+        string choice = Console.ReadLine();
+
+        if (choice == "A")
+        {
+            message = $"Your {choice} is correct in Binary";
+        }
+        else
+        {
+            message = $"Your {choice} is not an option ";
+            message += $"Please input A";
+        }
+        Console.WriteLine(message);
+
+        string message2 = (choice == "A") 
+            ? $"Your {choice} is correct in Binary" 
+            : string.Format("Your {0} is not an option. Please input A", choice);
+        Console.WriteLine($"message2 = {message2}");
     }
 }
 ```
