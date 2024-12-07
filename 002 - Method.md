@@ -32,3 +32,44 @@ class ConsoleApp
     }
 }
 ```
+
+# Passing args in Main method
+Code 1
+```
+using System;
+
+class ConsoleApp
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(args[0]);
+    }
+}
+```
+Output 1
+```
+  dotnet run Hello World!  -> Output result: Hello
+  dotnet run "Hello World!"  -> Output result: Hello World!
+  dotnet run -- -Hello -> Output: -Hello
+```
+
+Code 2
+```
+using System;
+
+class ConsoleApp
+{
+    static void Main(string[] args)
+    {
+        for (int i = 0; i < args.Length; i++)
+        {
+            Console.Write(args[i] + " ");
+
+        }
+    }
+}
+```
+Output 2
+```
+  dotnet run This is my String -> Output: This is my String
+```
