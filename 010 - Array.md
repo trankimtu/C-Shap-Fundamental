@@ -30,6 +30,15 @@ class ConsoleApp
         {
             Console.WriteLine(chars[i]);
         }
+
+        // String to chars
+        Console.WriteLine("ToCharArray");
+        string myString = "This is my string";
+        char[] charArray = myString.ToCharArray();
+        for (int i = 0; i < charArray.Length; i++)
+        {
+            Console.WriteLine(charArray[i]);
+        }
     }
 }
 ```
