@@ -71,6 +71,7 @@ class ConsoleApp
 }
 ```
 # Switch ... case
+```
 switch (day) {
     case 1:
         Console.WriteLine("Monday");
