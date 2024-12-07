@@ -14,3 +14,44 @@ Suggest using Camel Case standard.
   float f = 3.14f; 
   double d = 3.14 + 5.12;
 ```
+
+Variables cannot start with number:
+```
+  string 5x = "abc"; // Error
+```
+Variable can use in: <br>
+Expression - Evaluates to a value<br>
+```
+  using System;
+
+  class ConsoleApp
+  {
+      static void Main(string[] args)
+      {
+          Console.Write("Input Your name: ");
+          string name = Console.ReadLine();
+          Console.WriteLine("Hello " + name + "!");
+          // expression "Hello " + name + "!"
+          // Operands: "Hello ", name, "!" are operands
+          // Operator: + use to concatinate 3 strings.
+          //literal: "Hello ", "!"  which are actual value
+      }
+  }
+
+```
+
+## Declaration a variable
+```
+  int x;
+```
+Declare a variable and use it without initialization will cause run time error<br>
+To void it, use nullable type<br>
+Nullable Type: int? is a shorthand for Nullable<int>. This allows the variable x to hold either an integer value or null.
+```
+  int? x = null; // Nullable<int> x = null;
+```
+
+## Initialization
+```
+  x = 5
+```
