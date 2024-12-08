@@ -54,3 +54,12 @@ Create new project, this will create a subfolder name <project name> in the same
 ```
 dotnet new console ---output <project name>
 ```
+Add project
+```
+dotnet sln add <project name>
+```
+Add 2nd project using VSCode<br>
+place cursor in folder contain sln file
+```
+dotnet new console -o <2nd project name> --use-program-main
+```
