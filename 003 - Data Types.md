@@ -36,11 +36,12 @@ string xml = """
               </person>
               """
 ```
+```
 xml will be:
-<person age="50"><br>
-  <first_name>Tu</first_name><br>
-</person><br>
-
+<person age="50">
+  <first_name>Tu</first_name>
+</person>
+```
 ## Build-in type
 Build-in Value Type:
 
