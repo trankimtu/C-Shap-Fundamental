@@ -79,8 +79,8 @@ class ConsoleApp
     <li>trueResult and falseResult must present</li>
     <li>trueResult and falseResult must be same type</li>
     <li>Must assign the result to a variable</li>
-    <li></li>
 </ul>
+
 # Switch ... case
 ```
 switch (day) {
