@@ -27,6 +27,19 @@ Ex: <br>
 
 <strong>String</strong>: instead using esc key, place $ in front of "..." to make all insie is tring. \t \n ... inside won't be convert to tab or new line.
  
+<strong>Raw String</strong>: using """..."""<br>
+Closing """ define how indent is
+```
+string xml = """
+              <person age="50">
+                <first_name>Tu</first_name>
+              </person>
+              """
+```
+xml will be:
+<person age="50"><br>
+  <first_name>Tu</first_name><br>
+</person><br>
 
 ## Build-in type
 Build-in Value Type:
