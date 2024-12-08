@@ -42,6 +42,7 @@ run a console app, it executes the app from the <project name>\bin\Debug\net9.0 
 <ul>
   <li>C# Dev Kit</li>
   <li>C# - This will automatically install with C# Dev Kit</li>
+  <li>Polyglot Notebooks</li>
 </ul>
 Keyboard shortcut 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -77,3 +78,9 @@ Place cursor in folder contain sln
 dotnet sln add <2nd project name>
 ```
 6. Open folder: code .
+7. Set Regions
+```
+#region
+
+#endregion
+```
