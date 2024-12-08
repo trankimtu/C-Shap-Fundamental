@@ -32,6 +32,11 @@ Change in one then press Control + "." select rename 'old" to 'new"
 ## Start without debugging
 Ctrl + F5 or Green outline Triangle
 
+## In Visual Studio 2022 for windows
+run a console app, it executes the app from the <project name>\bin\Debug\net9.0 folder
+
+
+
 # Visual Studio Code
 ## Extension
 <ul>
@@ -40,3 +45,6 @@ Ctrl + F5 or Green outline Triangle
 </ul>
 Keyboard shortcut 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+Create new solution
+```
+dotnet new sln --name <Solution name>
