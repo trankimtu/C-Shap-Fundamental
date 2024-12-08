@@ -35,6 +35,7 @@ class ConsoleApp
         Console.WriteLine(message);
     }
 }
+
 ```
 # If ... else ...
 ```
@@ -70,6 +71,16 @@ class ConsoleApp
     }
 }
 ```
+Ternary
+```
+<type>result = condition ? trueResult : falseResult;
+```
+<ul>
+    <li>trueResult and falseResult must present</li>
+    <li>trueResult and falseResult must be same type</li>
+    <li>Must assign the result to a variable</li>
+    <li></li>
+</ul>
 # Switch ... case
 ```
 switch (day) {
