@@ -50,3 +50,7 @@ Create new solution
 ```
 dotnet new sln --name <Solution name>
 ```
+Create new project, this will create a subfolder name <project name> in the same location of sln file
+```
+dotnet new console ---output <project name>
+```
