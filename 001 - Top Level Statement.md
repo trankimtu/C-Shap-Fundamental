@@ -9,7 +9,14 @@ This works because C# 10 allows you to omit the traditional structure, making it
 
 However, if you're working on a larger project or prefer the traditional structure for readability and organization, you can still use the full syntax:<br>
 Traditional C#<br>
-The Auto-generate code does not  define a namespace, so the "ConsoleApp" class is implicitly defined in an empty namespace with no name instead of a namespace that matches the name of the project.
+The Auto-generate code does not  define a namespace, so the "ConsoleApp" class is implicitly defined in an empty namespace with no name instead of a namespace that matches the name of the project.<br>
+Top-level programs include:
+<ul>
+  <li>There can be onlyu one file like this in a project</li>
+  <li>Any ```using``` statements must be at the top of the file.</li>
+  <li>Declare any classes or other types must be at the bottom of the file</li>
+  <li>Should name ```Main``` method if explicitly define</li>
+</ul>
 ```
 using System;
 //namespace ???? {
