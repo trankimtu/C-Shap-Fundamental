@@ -19,6 +19,13 @@ using System;
       }
   }
 ```
+Note: <br>
+1 Char is not always a single letter. It's 16 bit Unicode character
+Ex: <br> 
+'æ': count as 1 char. But it's component include 'a' and 'e' <br>
+'á': count as 1 char. But it's component include a + ◌́ (Combining Acute Accent)
+Character: 
+
 ## Build-in type
 Build-in Value Type:
 
