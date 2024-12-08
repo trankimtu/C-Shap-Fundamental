@@ -26,7 +26,7 @@ Ex: <br>
 'á': count as 1 char. But it's component include a + ◌́ (Combining Acute Accent)<br>
 
 <strong>String</strong>: instead using esc key, place $ in front of "..." to make all insie is tring. \t \n ... inside won't be convert to tab or new line.
-Character: 
+ 
 
 ## Build-in type
 Build-in Value Type:
