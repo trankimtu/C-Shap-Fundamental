@@ -20,10 +20,12 @@ using System;
   }
 ```
 Note: <br>
-1 Char is not always a single letter. It's 16 bit Unicode character
+1 <strong>Char</strong> is not always a single letter. It's 16 bit Unicode character
 Ex: <br> 
 'æ': count as 1 char. But it's component include 'a' and 'e' <br>
-'á': count as 1 char. But it's component include a + ◌́ (Combining Acute Accent)
+'á': count as 1 char. But it's component include a + ◌́ (Combining Acute Accent)<br>
+
+<strong>String</strong>: instead using esc key, place $ in front of "..." to make all insie is tring. \t \n ... inside won't be convert to tab or new line.
 Character: 
 
 ## Build-in type
