@@ -20,7 +20,7 @@ Top-level programs include:
 "using System" is import globally in consoleApp/object/Debug/net9.0/ConsoleApp.GlobalUsing.g.cs
 
 ```
-using System;
+//using System;
 //namespace ???? {
   class ConsoleApp
   {
