@@ -84,3 +84,59 @@ dotnet sln add <2nd project name>
 
 #endregion
 ```
+## Naming convention
+Camel case - local variables, private fields<br>
+Title case aka pascal case - Type, non-private fields, and other member like methods<br>
+### nameof
+
+```
+nameof (<Variable>, <type>, or <member> ...);
+```
+Function will return a string with value = <Variable>, <type>, or <member> <br>
+Benefit
+<ul>
+  <li><strong>Refactoring:</strong> When you rename the variable, method, or member using a tool like Visual Studio, nameof will automatically update, reducing the risk of errors compared to hard-coded strings.</li>
+  <li><strong>Readability:</strong> Makes your code more readable and maintainable.</li>
+  <li><strong>Consistency:</strong> Ensures the correctness of names used in code, especially useful in logging and exception handling.</li>
+</ul>
+Common Use Cases
+<ul>
+  <li><strong>Logging and Debugging:</strong> To include variable or member names in log messages.</li>
+  <li><strong>Argument Validation:</strong> To include parameter names in exception messages.</li>
+  <li><strong>Refactoring:</strong> To ensure that renaming variables or members propagates correctly throughout your code.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
