@@ -36,12 +36,32 @@ string xml = """
               </person>
               """
 ```
-```
+
 xml will be:
+```
 <person age="50">
   <first_name>Tu</first_name>
 </person>
 ```
+Another xml with closing """ at different indent
+```
+string xml = """
+              <person age="50">
+                <first_name>Tu</first_name>
+              </person>
+"""
+```
+
+xml will be:
+```
+              <person age="50">
+                <first_name>Tu</first_name>
+              </person>
+```
+
+
+
+
 ## Build-in type
 Build-in Value Type:
 
