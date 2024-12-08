@@ -45,27 +45,35 @@ run a console app, it executes the app from the <project name>\bin\Debug\net9.0 
 </ul>
 Keyboard shortcut 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-Create new solution
+<br>
+
+Help
+```
+dotnet help <command>
+```
+1. Create folder for the solution
+2. Create new solution
 
 ```
 dotnet new sln --name <Solution name>
 ```
-Create new project, this will create a subfolder name <project name> in the same location of sln file
+3. Create new project, this will create a subfolder name <project name> in the same location of sln file
 ```
 dotnet new console ---output <project name>
 ```
-Add project
+4. Add project
 ```
 dotnet sln add <project name>
 ```
-Add 2nd project using VSCode<br>
+5. Repeat 3 and 4> <br>
+- 3. Add 2nd project using VSCode<br>
 place cursor in folder contain sln file
 ```
 dotnet new console -o <2nd project name> --use-program-main
 ```
-Add 2nd project to sln<br>
+- 4. Add 2nd project to sln<br>
 Place cursor in folder contain sln
 ```
 dotnet sln add <2nd project name>
 ```
-
+6. Open folder: code .
