@@ -71,7 +71,7 @@ class ConsoleApp
     }
 }
 ```
-Ternary
+## Ternary
 ```
 <type>result = condition ? trueResult : falseResult;
 ```
