@@ -46,5 +46,7 @@ run a console app, it executes the app from the <project name>\bin\Debug\net9.0 
 Keyboard shortcut 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 Create new solution
+
 ```
 dotnet new sln --name <Solution name>
+```
