@@ -63,7 +63,7 @@ place cursor in folder contain sln file
 ```
 dotnet new console -o <2nd project name> --use-program-main
 ```
-Add 2nd project to sln
+Add 2nd project to sln<br>
 Place cursor in folder contain sln
 ```
 dotnet sln add <2nd project name>
